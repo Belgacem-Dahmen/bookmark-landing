@@ -24,6 +24,7 @@
   display: flex;
   align-items: center;
   gap: 50px;
+  padding-right: 50px;
 }
 
 .link {

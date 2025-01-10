@@ -1,10 +1,12 @@
 <script setup>
 import Navbar from "./components/Navbar.vue";
+import Intro from "./components/Intro.vue";
 </script>
 
 <template>
   <main>
     <Navbar />
+    <Intro />
   </main>
 
   <!-- A Simple Bookmark Manager A clean and simple interface to organize your
@@ -61,6 +63,4 @@ import Navbar from "./components/Navbar.vue";
   Us Features Pricing Contact -->
 </template>
 
-<style>
-
-</style>
+<style></style>
