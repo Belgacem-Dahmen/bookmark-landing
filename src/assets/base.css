@@ -49,9 +49,12 @@ html:focus-within {
 
 body {
   min-height: 100vh;
+  max-width: 1440px;
   text-rendering: optimizeSpeed;
   line-height: 1.5;
   font-size: var(--body-font-size);
+  color: var(--neutral-grayish-blue);
+  margin: 0 auto;
 }
 
 
@@ -86,4 +89,5 @@ select {
     transition-duration: 0.01ms !important;
     scroll-behavior: auto !important;
   }
+  
 }
